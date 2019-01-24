@@ -19,7 +19,7 @@ contract Poll {
 
     mapping(uint => Question) public polls;
     mapping(uint => Option[]) public options;
-    uint pollsCount;
+    uint public pollsCount;
     uint optionsCount;
 
     mapping (bytes32=>bool) voters;
